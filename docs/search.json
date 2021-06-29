@@ -1,0 +1,45 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\nMe doing ANOVAs by hand - 2019.Distill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
+      "last_modified": "2021-06-29T18:21:18-04:00"
+    },
+    {
+      "path": "cv.html",
+      "title": "CV",
+      "description": "Page for CV",
+      "author": [],
+      "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
+      "last_modified": "2021-06-29T18:21:26-04:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Garrett D. Greeley",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-06-29T18:20:58-04:00"
+    },
+    {
+      "path": "research.html",
+      "title": "Research",
+      "description": "A new article created using the Distill format.",
+      "author": [],
+      "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
+      "last_modified": "2021-06-29T18:21:03-04:00"
+    },
+    {
+      "path": "teaching.html",
+      "title": "Teaching",
+      "description": "Page for teaching.",
+      "author": [],
+      "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
+      "last_modified": "2021-06-29T18:21:10-04:00"
+    }
+  ],
+  "collections": []
+}
