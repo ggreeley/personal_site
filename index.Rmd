@@ -1,7 +1,6 @@
 ---
-title: "Garrett D. Greeley"
-description: |
-  Welcome to the website. I hope you enjoy it!
+title: "Home Page"
+description: "Desc"
 site: distill::distill_website
 ---
 
@@ -14,5 +13,25 @@ knitr::opts_chunk$set(echo = FALSE)
 # Learn more about publishing to GitHub Pages at:
 # https://rstudio.github.io/distill/publish_website.html#github-pages
 
+```
+
+```{r,include=FALSE}
+library(tidyverse)
+```
+
+```{r, layout="l-screen-inset"}
+# simulate data and make banner plot
+#set.seed(333)
+#tibble(agent = seq(1:300),
+#       rating_mean = rnorm(n = 300, mean = 0, sd = 0.25),
+#       rating_sd = rnorm(n = 300, mean = 0.5, sd = 0.10)) %>%
+#  ggplot(aes(x = agent, y = rating_mean)) +
+#  geom_point() +
+#  geom_errorbar(aes(ymin = rating_mean - rating_sd,
+#                    ymax = rating_mean + rating_sd)) +
+#  geom_hline(yintercept = 0, color = "red") +
+#  theme_void()
+
+knitr::include_graphics("./images/point_banner.png")
 ```
 
