@@ -2,11 +2,27 @@
   "articles": [
     {
       "path": "index.html",
-      "title": "Home Page",
-      "description": "Desc",
+      "title": "Welcome!",
+      "description": "My name is Garrett Greeley. I'm a 3rd year Cognitive Science Ph.D. student at Stony Brook University. I'm interested in collective/social memory, learning, and quantiative methods.",
       "author": [],
-      "contents": "\n\n\n\n\n\n\n",
-      "last_modified": "2021-07-02T14:09:32-04:00"
+      "contents": "\nBrief Background\n Education \\(-\\)\nBefore coming to Stony Brook, I earned my B.A. in Psychology at Winona State University in Minnesota and was a summer research intern in the Cognition and Development Lab at Yale University. At Stony Brook, I’ve earned an M.A. in Psychology and the Advanced Certificate in Quantitative Methods, en route to the Ph.D. For more details on my academic training and background, see my full ACADEMIC CV or my RESUME.\n Skills \\(-\\)\nGeneral: Experimental design, project management, public speaking, scientific/technical writing, supervision/mentoring, teaching.\nLanguages: Proficient with R and the fundamentals of Git/Github. Some experience with Python, LaTeX, SAS, HTML/CSS, and JavaScript.\nStatistics/Modeling: Correlation, linear regression/ANOVA (OLS), generalized linear models (GLMs), mixed effect OLS and GLMs, meta-analysis, multivariate methods (e.g., EFA/CFA), some Bayesian methods.\n Hobbies \\(-\\)\nWhen not doing or thinking about research, I’m probably watching a movie/series, reading non-fiction, or deciding what food to order.\n\n\n\nResearch Interests\nI’m interested in a number of topics, namely \\(-\\)\nSocial & Collective Memory\nHow does collaboration in face-to-face and online environments influence memory performance?\nHow does working in a group, or being a member of a group, influence the emergence of collective memory?\nHow does remembering information in a social context (e.g., in a group) influence the subsequent learning of new information?\nHow do different social network features (structure/dynamics) influence the development and maintenance of collective memory?\n\nQuantifying Collective Memory\nWhat does it mean for an event/story/etc. to be collectively remembered?\nCan we use metrics from research on individual memory (e.g., clustering, temporal contiguity) to quantify the “structure” of collective memory?\nHow does collective memory change across time?\n\nCollective Memory \\(\\leftarrow\\) ? \\(\\rightarrow\\) Collective Belief/Decisions/Behavior\nHow does collective memory influence other collective phenomena, such as collective beliefs and decisions?\nWhat role does collective memory play in the accumulation of culture?\n\n\n\n\n\n\n\n\n\n\n",
+      "last_modified": "2021-12-15T18:25:01-05:00"
+    },
+    {
+      "path": "research.html",
+      "title": "Research",
+      "description": "In the academic realm, I'm primarily interested in human memory and how it operates in social contexts. Specifically, I'm interested in collective memory, how face-to-face and online collaboration influences memory, and the relationship between social remembering and retrieval organization. MORE...",
+      "author": [],
+      "contents": "\n2022\nMore to come! Check back for updates.\n2021\nStuff\n2020\nStuff\n2018/19\nStuff\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
+      "last_modified": "2021-12-10T14:42:55-05:00"
+    },
+    {
+      "path": "teaching.html",
+      "title": "Teaching",
+      "description": "As a Ph.D. student at Stony Brook, I've been both a teaching assistant and a lab instructor for several undergraduate and graduate-level courses. As of August 2021, I've been moved to a research funding line.",
+      "author": [],
+      "contents": "\n2021\nFall = Moved to RA funding line\nSpring Grad stats lab\n2020\nFall = 310\nSpring = undergrad stats\n2019\nFall = intro psych\n2017\nUndergraduate TA for Cognitive Psychology.\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
+      "last_modified": "2021-12-10T15:02:34-05:00"
     }
   ],
   "collections": []

@@ -22,7 +22,7 @@ html {
   --title-size:      50px;
   --body-size:       1.06rem;
   --code-size:       14px;
-  --aside-size:      12px;
+  --aside-size:      18px; /*aside size originally 12*/
   --fig-cap-size:    13px;
   /*-- Main font colors --*/
   --title-color:     #000000;
@@ -67,11 +67,13 @@ d-appendix {
 /* These properties only apply to Distill sites and blogs  */
 
 .distill-site-header {
-  --title-size:       36px; /*changed from original 18 to 24*/
+  --title-size:       48px; /*changed from original 18 to 24 to 36*/
   --text-color:       rgba(255, 255, 255, 0.8);
-  --text-size:        24px; /*changed from original 15 to 18*/
+  --text-size:        24px; /*changed from original 15 to 18 to 24*/
   --hover-color:      white;
   --bkgd-color:       #0F2E3D;
+  
+  --margin.bottom: 0.75em;
 }
 
 .distill-site-footer {
@@ -85,6 +87,7 @@ d-appendix {
 /* Add any additional CSS rules below                      */
 
 /* added 2021-07-02 to include image banner on home page*/
+/* may not use as of 2021-12-10, but keep for now in case */
 .article-banner {
   width: auto;
   height: auto;
@@ -97,3 +100,29 @@ img[src="images/point_banner.png"] {
   width: 100%;
   margin: 100px 25px 0px 0px;
 }
+
+/* adding 2021-12-10 for putting pictures side-by-side */
+/* nope - but keep for posterity */
+/*.float-left img {
+  float: left;
+}
+
+.float.right img {
+  float: right;
+}
+/*
+
+/* https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 

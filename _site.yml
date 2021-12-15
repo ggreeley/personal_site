@@ -12,10 +12,10 @@ navbar:
       href: research.html
     - text: "Teaching"
       href: teaching.html
-    - text: "About"
+    - text: "CV/Resume"
       menu:
-      - text: "Bio"
-        href: about.html
-      - text: "CV"
+      - text: "Academic CV"
         href: cv.html
+      - text: "Resume"
+        href: resume.html
 output: distill::distill_article

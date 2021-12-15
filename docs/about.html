@@ -87,29 +87,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Garrett D. Greeley: Welcome!</title>
+  <title>Garrett D. Greeley: About this site</title>
 
-  <meta property="description" itemprop="description" content="My name is Garrett Greeley. I&#39;m a 3rd year Cognitive Science Ph.D. student at Stony Brook University. I&#39;m interested in collective/social memory, learning, and quantiative methods."/>
+  <meta property="description" itemprop="description" content="Some additional details about the website"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Garrett D. Greeley: Welcome!"/>
+  <meta property="og:title" content="Garrett D. Greeley: About this site"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="My name is Garrett Greeley. I&#39;m a 3rd year Cognitive Science Ph.D. student at Stony Brook University. I&#39;m interested in collective/social memory, learning, and quantiative methods."/>
+  <meta property="og:description" content="Some additional details about the website"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Garrett D. Greeley"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Garrett D. Greeley: Welcome!"/>
-  <meta property="twitter:description" content="My name is Garrett Greeley. I&#39;m a 3rd year Cognitive Science Ph.D. student at Stony Brook University. I&#39;m interested in collective/social memory, learning, and quantiative methods."/>
+  <meta property="twitter:title" content="Garrett D. Greeley: About this site"/>
+  <meta property="twitter:description" content="Some additional details about the website"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["Welcome!"]},{"type":"character","attributes":{},"value":["My name is Garrett Greeley. I'm a 3rd year Cognitive Science Ph.D. student at Stony Brook University. I'm interested in collective/social memory, learning, and quantiative methods."]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About this site"]},{"type":"character","attributes":{},"value":["Some additional details about the website"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2138,7 +2138,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --title-size:      50px;
     --body-size:       1.06rem;
     --code-size:       14px;
-    --aside-size:      18px; /*aside size originally 12*/
+    --aside-size:      12px;
     --fig-cap-size:    13px;
     /*-- Main font colors --*/
     --title-color:     #000000;
@@ -2183,13 +2183,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* These properties only apply to Distill sites and blogs  */
 
   .distill-site-header {
-    --title-size:       48px; /*changed from original 18 to 24 to 36*/
+    --title-size:       36px; /*changed from original 18 to 24*/
     --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        24px; /*changed from original 15 to 18 to 24*/
+    --text-size:        24px; /*changed from original 15 to 18*/
     --hover-color:      white;
     --bkgd-color:       #0F2E3D;
-    
-    --margin.bottom: 0.75em;
   }
 
   .distill-site-footer {
@@ -2203,7 +2201,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* Add any additional CSS rules below                      */
 
   /* added 2021-07-02 to include image banner on home page*/
-  /* may not use as of 2021-12-10, but keep for now in case */
   .article-banner {
     width: auto;
     height: auto;
@@ -2215,33 +2212,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     padding: 0;
     width: 100%;
     margin: 100px 25px 0px 0px;
-  }
-
-  /* adding 2021-12-10 for putting pictures side-by-side */
-  /* nope - but keep for posterity */
-  /*.float-left img {
-    float: left;
-  }
-
-  .float.right img {
-    float: right;
-  }
-  /*
-
-  /* https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
-  /* Three image containers (use 25% for four, and 50% for two, etc) */
-  .column {
-    float: left;
-    width: 50%;
-    padding: 5px;
-  }
-
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  } </style>
+  }</style>
   <style type="text/css">
   /* base style */
 
@@ -2417,7 +2388,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Welcome!","description":"My name is Garrett Greeley. I'm a 3rd year Cognitive Science Ph.D. student at Stony Brook University. I'm interested in collective/social memory, learning, and quantiative methods.","authors":[]}
+{"title":"About this site","description":"Some additional details about the website","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2433,13 +2404,13 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <a href="teaching.html">Teaching</a>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
-CV/Resume
+About
  
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="cv.html">Academic CV</a>
-<a href="resume.html">Resume</a>
+<a href="about.html">Bio</a>
+<a href="cv.html">CV</a>
 </div>
 </div>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
@@ -2451,54 +2422,19 @@ CV/Resume
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Welcome!</h1>
+<h1>About this site</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p>My name is Garrett Greeley. I’m a 3rd year Cognitive Science Ph.D. student at Stony Brook University. I’m interested in collective/social memory, learning, and quantiative methods.</p>
+<p><p>Some additional details about the website</p></p>
 </div>
 
 
 <div class="d-article">
-<h1 id="brief-background">Brief Background</h1>
-<p><font size="4"> <strong>Education</strong></font> <span class="math inline">\(-\)</span></p>
-<p>Before coming to Stony Brook, I earned my B.A. in Psychology at Winona State University in Minnesota and was a summer research intern in the Cognition and Development Lab at Yale University. At Stony Brook, I’ve earned an M.A. in Psychology and the Advanced Certificate in Quantitative Methods, en route to the Ph.D. For more details on my academic training and background, see my full ACADEMIC CV or my RESUME.</p>
-<p><font size="4"> <strong>Skills</strong></font> <span class="math inline">\(-\)</span></p>
-<p><em>General</em>: Experimental design, project management, public speaking, scientific/technical writing, supervision/mentoring, teaching.</p>
-<p><em>Languages</em>: Proficient with R and the fundamentals of Git/Github. Some experience with Python, LaTeX, SAS, HTML/CSS, and JavaScript.</p>
-<p><em>Statistics/Modeling</em>: Correlation, linear regression/ANOVA (OLS), generalized linear models (GLMs), mixed effect OLS and GLMs, meta-analysis, multivariate methods (e.g., EFA/CFA), some Bayesian methods.</p>
-<p><font size="4"> <strong>Hobbies</strong></font> <span class="math inline">\(-\)</span></p>
-<p>When not doing or thinking about research, I’m probably watching a movie/series, reading non-fiction, or deciding what food to order.</p>
-<div class="layout-chunk" data-layout="l-screen-inset">
-
-</div>
-<h1 id="research-interests">Research Interests</h1>
-<p>I’m interested in a number of topics, namely <span class="math inline">\(-\)</span></p>
-<ul>
-<li><strong>Social &amp; Collective Memory</strong>
-<ul>
-<li>How does collaboration in face-to-face and online environments influence <em>memory performance</em>?</li>
-<li>How does working in a group, or being a member of a group, influence the emergence of <em>collective memory</em>?</li>
-<li>How does remembering information in a social context (e.g., in a group) influence the <em>subsequent learning of new information</em>?</li>
-<li>How do different social network features (structure/dynamics) influence the development and maintenance of collective memory?</li>
-</ul></li>
-<li><strong>Quantifying Collective Memory</strong>
-<ul>
-<li>What does it mean for an event/story/etc. to be collectively remembered?</li>
-<li>Can we use metrics from research on individual memory (e.g., clustering, temporal contiguity) to quantify the <em>“structure” of collective memory</em>?</li>
-<li>How does collective memory <em>change across time</em>?</li>
-</ul></li>
-<li><strong>Collective Memory</strong> <span class="math inline">\(\leftarrow\)</span> ? <span class="math inline">\(\rightarrow\)</span> <strong>Collective Belief/Decisions/Behavior</strong>
-<ul>
-<li>How does collective memory influence other collective phenomena, such as <em>collective beliefs and decisions</em>?</li>
-<li>What role does collective memory play in the <em>accumulation of culture</em>?</li>
-</ul></li>
-</ul>
-<div class="layout-chunk" data-layout="l-screen-inset">
-
-</div>
-<div class="layout-chunk" data-layout="l-body">
-
-</div>
+<figure>
+<img src="images/chalkboard.jpg" alt="Me doing ANOVAs by hand - 2019." /><figcaption aria-hidden="true">Me doing ANOVAs by hand - 2019.</figcaption>
+</figure>
+<p>Distill is a publication format for scientific and technical writing, native to the web.</p>
+<p>Learn more about using Distill for R Markdown at <a href="https://rstudio.github.io/distill" class="uri">https://rstudio.github.io/distill</a>.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2507,15 +2443,6 @@ CV/Resume
 <div class="d-appendix">
 </div>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
@@ -2523,15 +2450,7 @@ CV/Resume
 <div class="appendix-bottom"></div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
-<div class="distill-site-nav distill-site-footer">
-<html>
-  
-<p>Site created with R and {distill}.
-
-</html>
-</div>
 <!--/radix_placeholder_navigation_after_body-->
-
 
 </body>
 
