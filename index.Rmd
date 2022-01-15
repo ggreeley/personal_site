@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <font size="4"> **Education**</font> $-$
 
-Before coming to Stony Brook, I earned my B.A. in Psychology at Winona State University in Minnesota and was a summer research intern in the Cognition and Development Lab at Yale University. At Stony Brook, I've earned an M.A. in Psychology and the Advanced Certificate in Quantitative Methods, en route to the Ph.D. For more details on my academic training and background, see my full ACADEMIC CV or my RESUME.
+Before coming to Stony Brook, I earned my B.A. in Psychology at Winona State University in Minnesota and was a summer research intern in the Cognition and Development Lab at Yale University. At Stony Brook, I've earned an M.A. in Psychology and the Advanced Certificate in Quantitative Methods, en route to the Ph.D. I should complete the program in 2024. For more details on my academic training and background, see my full ACADEMIC CV or my RESUME.
 
 <font size="4"> **Skills**</font> $-$
 
@@ -86,3 +86,6 @@ I'm interested in a number of topics, namely $-$
 #</aside>
 ```
 
+# Updates
+
+Site last updated on `r format(Sys.time(), '%d %B, %Y')`
