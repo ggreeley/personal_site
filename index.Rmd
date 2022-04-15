@@ -17,27 +17,30 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Brief Background
 
-<font size="4"> **Education**</font> $-$
+<font size="4"> **Education**</font>
 
-Before coming to Stony Brook, I earned my B.A. in Psychology at Winona State University in Minnesota and was a summer research intern in the Cognition and Development Lab at Yale University. At Stony Brook, I've earned an M.A. in Psychology and the Advanced Certificate in Quantitative Methods, en route to the Ph.D. I should complete the program in 2024. For more details on my academic training and background, see my full ACADEMIC CV or my RESUME.
+Before coming to Stony Brook, I earned my B.A. in Psychology at Winona State University in Minnesota and was a summer research intern in the Cognition and Development Lab at Yale University. At Stony Brook, I've earned an M.A. in Psychology and the Advanced Certificate in Quantitative Methods, en route to the Ph.D (expected 2024). For more details on my academic training and background, see my full LINK ACADEMIC CV or my LINK RESUME.
 
-<font size="4"> **Skills**</font> $-$
+<font size="4"> **Skills**</font>
 
 *General*: Experimental design, project management, public speaking, scientific/technical writing, supervision/mentoring, teaching. 
 
-*Languages*: Proficient with R and the fundamentals of Git/Github. Some experience with Python, LaTeX, SAS, HTML/CSS, and JavaScript.
+*Languages & Platforms*: Proficient with R and the fundamentals of Git/Github. Some experience with Python, LaTeX, SAS, HTML/CSS, and JavaScript.
 
-*Statistics/Modeling*: Correlation, linear regression/ANOVA (OLS), generalized linear models (GLMs), mixed effect OLS and GLMs, meta-analysis, multivariate methods (e.g., EFA/CFA), some Bayesian methods. 
+*Statistics & Modeling*: Correlation, linear regression/ANOVA (OLS), generalized linear models (GLMs), mixed effect OLS and GLMs, meta-analysis, multivariate methods (e.g., EFA/CFA), some experience with Bayesian methods. 
 
-<font size="4"> **Hobbies**</font> $-$
+<font size="4"> **Hobbies**</font>
 
-When not doing or thinking about research, I'm probably watching a movie/series, reading non-fiction, or deciding what food to order.
+When not doing or thinking about research, I'm probably making music, watching a movie or series, reading non-fiction, or deciding what food to order.
 
 ```{r,include=FALSE}
 library(tidyverse)
 ```
 
 ```{r, layout="l-screen-inset", eval=FALSE}
+
+# wanted a plot/banner thing, but couldn't find a method for displaying nicely
+
 # simulate data and make banner plot
 #set.seed(333)
 #tibble(agent = seq(1:300),
@@ -86,6 +89,8 @@ I'm interested in a number of topics, namely $-$
 #</aside>
 ```
 
-# Updates
+# Contact & Updates
+
+*Email*: [garrett.greeley@gmail.com](garrett.greeley@gmail.com) or [garrett.greeley@stonybrook.edu](garrett.greeley@stonybrook.edu)
 
 Site last updated on `r format(Sys.time(), '%d %B, %Y')`

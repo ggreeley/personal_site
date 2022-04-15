@@ -4,7 +4,11 @@ description: |
   For a more detailed list of projects, publications, and more, see ACADEMIC CV
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
 
+No longer in use - tab option opens PDF.
 
 
 
