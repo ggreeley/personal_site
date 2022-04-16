@@ -1,36 +1,42 @@
 ---
 title: "Research"
 description: |
-  In the academic realm, I'm primarily interested in human memory and how it operates in social contexts. Specifically, I'm interested in collective memory, how face-to-face and online collaboration influences memory, and the relationship between social remembering and retrieval organization. MORE...
+  Most of my research focuses on human memory and learning in social contexts. This has included work on collective memory, how face-to-face and online collaboration influences memory, and the relationship between social remembering and retrieval retrieval dynamics.
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# 2022
+# Publications
 
-More to come! Check back for updates.
+$^{*}$ *Indicates first authorship*
 
-# 2021
+**Greeley, G. D.**$^{*}$, Peña, T.$^{*}$, & Rajaram, S. (Under Review). Social Remembering in the Digital Age: Implications for Virtual Study, Work, and Social Engagement.
 
-Stuff
+**Greeley, G. D.**$^{*}$, Peña, T., Pepe, N. W., Choi, H-Y., & Rajaram, S. (In Prep). Collective Memory for U.S. Cities: A Striking Stability in Recall Through a Period of Upheaval.
 
-# 2020
+Jin, J., Choi, H-Y., Pepe, N. W., **Greeley, G. D.**, Kensinger, E. A., Mohanty, A., & Rajaram, S. (In Prep). Assessing the Global Structure of Collective Memory: Application of the Representational Similarity Analysis.
 
-Stuff 
+Rajaram, S., Peña, T., & **Greeley, G. D.** (2022). *How Collective Memories Emerge: A Cognitive Psychological Perspective*. In H. L. Roediger & J. Wertsch (Eds.), National Memories: Constructing Identity in Populist Times. Oxford: Academic Press.
 
-# 2018/19
+# Posters & Talks
 
-Stuff
+**Greeley, G. D.**$^{*}$, Peña, T., Pepe, N. W., Choi, H-Y., & Rajaram, S. (2021). Collective Memory for U.S. Cities: A Striking Stability in Recall Through a Period of Upheaval. *Presented as a poster at the 62nd Annual Meeting of the Psychonomic Society – Virtual.*
 
+Jin, J., Choi, H-Y., Pepe, N. W., **Greeley, G. D.**, Kensinger, E. A., Mohanty, A., & Rajaram, S. (2021). Assessing the Global Structure of Collective Memory: Application of the Representational Similarity Analysis. *Presented as a poster at the 62nd Annual Meeting of the Psychonomic Society – Virtual.*
 
+**Greeley, G. D.**$^{*}$, Peña, T.$^{*}$, & Rajaram, S. (2021). Collaborative Remembering in a Fully Online, Chat-Based Environment: Implications for Remote Study and Work. *Presented as a poster at the 62nd Annual Meeting of the Psychonomic Society – Virtual.*
 
-Distill is a publication format for scientific and technical writing, native to the web. 
+**Greeley, G. D.**$^{*}$, Peña, T.$^{*}$, & Rajaram, S. (2021). Collaborative Remembering in a Fully Online, Chat-Based Environment: Implications for Remote Study and Work. *Presented at Stony Brook University’s Cognitive Science Area 2nd/4th Year Symposium – Virtual.*
 
-Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
+Smith, E., **Greeley, G. D.**, & Russell, E. (2019). Correspondence bias: Gender effects across temporal scales. *Poster presented at the 2019 Midwestern Psychological Association (MPA) Conference – Chicago, IL.*
 
+**Greeley, G. D.** (2018). Predictive processing effects in visual working memory? *Poster presented at Winona State University’s 12th Annual Ramaley Research Celebration – Winona, MN.*
 
+**Greeley, G. D.** (2018). Predictive processing effects in visual working memory? *Poster presented at the Minnesota Undergraduate Psychology Conference (MUPC) - Carleton College, Northfield, MN.*
 
+“Actualizing Activism” Course Group. (2016). Mental health on campus: Raising awareness and reducing stigma.
+Organized presentation and panel discussion at Gustavus Adolphus College, St. Peter, MN.
 
 

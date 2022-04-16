@@ -89,27 +89,27 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_meta_tags-->
   <title>Garrett D. Greeley: Research</title>
 
-  <meta property="description" itemprop="description" content="A new article created using the Distill format."/>
+  <meta property="description" itemprop="description" content="Most of my research focuses on human memory and learning in social contexts. This has included work on collective memory, how face-to-face and online collaboration influences memory, and the relationship between social remembering and retrieval retrieval dynamics."/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Garrett D. Greeley: Research"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="A new article created using the Distill format."/>
+  <meta property="og:description" content="Most of my research focuses on human memory and learning in social contexts. This has included work on collective memory, how face-to-face and online collaboration influences memory, and the relationship between social remembering and retrieval retrieval dynamics."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Garrett D. Greeley"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="Garrett D. Greeley: Research"/>
-  <meta property="twitter:description" content="A new article created using the Distill format."/>
+  <meta property="twitter:description" content="Most of my research focuses on human memory and learning in social contexts. This has included work on collective memory, how face-to-face and online collaboration influences memory, and the relationship between social remembering and retrieval retrieval dynamics."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Research"]},{"type":"character","attributes":{},"value":["A new article created using the Distill format."]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Research"]},{"type":"character","attributes":{},"value":["Most of my research focuses on human memory and learning in social contexts. This has included work on collective memory, how face-to-face and online collaboration influences memory, and the relationship between social remembering and retrieval retrieval dynamics."]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2138,7 +2138,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --title-size:      50px;
     --body-size:       1.06rem;
     --code-size:       14px;
-    --aside-size:      12px;
+    --aside-size:      18px; /*aside size originally 12*/
     --fig-cap-size:    13px;
     /*-- Main font colors --*/
     --title-color:     #000000;
@@ -2203,6 +2203,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* Add any additional CSS rules below                      */
 
   /* added 2021-07-02 to include image banner on home page*/
+  /* may not use as of 2021-12-10, but keep for now in case */
   .article-banner {
     width: auto;
     height: auto;
@@ -2214,7 +2215,33 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     padding: 0;
     width: 100%;
     margin: 100px 25px 0px 0px;
-  }</style>
+  }
+
+  /* adding 2021-12-10 for putting pictures side-by-side */
+  /* nope - but keep for posterity */
+  /*.float-left img {
+    float: left;
+  }
+
+  .float.right img {
+    float: right;
+  }
+  /*
+
+  /* https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } </style>
   <style type="text/css">
   /* base style */
 
@@ -2390,7 +2417,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Research","description":"A new article created using the Distill format.","authors":[]}
+{"title":"Research","description":"Most of my research focuses on human memory and learning in social contexts. This has included work on collective memory, how face-to-face and online collaboration influences memory, and the relationship between social remembering and retrieval retrieval dynamics.","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2411,8 +2438,8 @@ CV/Resume
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
+<a href="./pdfs/2022-04-15_Greeley_CV.pdf">Academic CV</a>
 <a href="resume.html">Resume</a>
-<a href="cv.html">Academic CV</a>
 </div>
 </div>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
@@ -2427,21 +2454,35 @@ CV/Resume
 <h1>Research</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>A new article created using the Distill format.</p></p>
+<p><p>Most of my research focuses on human memory and learning in social contexts. This has included work on collective memory, how face-to-face and online collaboration influences memory, and the relationship between social remembering and retrieval retrieval dynamics.</p></p>
 </div>
 
 
 <div class="d-article">
-<h1 id="section">2022</h1>
-<p>More to come! Check back for updates.</p>
-<h1 id="section-1">2021</h1>
-<p>Stuff</p>
-<h1 id="section-2">2020</h1>
-<p>Stuff</p>
-<h1 id="section-3">2018/19</h1>
-<p>Stuff</p>
-<p>Distill is a publication format for scientific and technical writing, native to the web.</p>
-<p>Learn more about using Distill for R Markdown at <a href="https://rstudio.github.io/distill" class="uri">https://rstudio.github.io/distill</a>.</p>
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#publications">Publications</a></li>
+<li><a href="#posters-talks">Posters &amp; Talks</a></li>
+</ul>
+</nav>
+</div>
+<h1 id="publications">Publications</h1>
+<p><span class="math inline">\(^{*}\)</span> <em>Indicates first authorship</em></p>
+<p><strong>Greeley, G. D.</strong><span class="math inline">\(^{*}\)</span>, Peña, T.<span class="math inline">\(^{*}\)</span>, &amp; Rajaram, S. (Under Review). Social Remembering in the Digital Age: Implications for Virtual Study, Work, and Social Engagement.</p>
+<p><strong>Greeley, G. D.</strong><span class="math inline">\(^{*}\)</span>, Peña, T., Pepe, N. W., Choi, H-Y., &amp; Rajaram, S. (In Prep). Collective Memory for U.S. Cities: A Striking Stability in Recall Through a Period of Upheaval.</p>
+<p>Jin, J., Choi, H-Y., Pepe, N. W., <strong>Greeley, G. D.</strong>, Kensinger, E. A., Mohanty, A., &amp; Rajaram, S. (In Prep). Assessing the Global Structure of Collective Memory: Application of the Representational Similarity Analysis.</p>
+<p>Rajaram, S., Peña, T., &amp; <strong>Greeley, G. D.</strong> (2022). <em>How Collective Memories Emerge: A Cognitive Psychological Perspective</em>. In H. L. Roediger &amp; J. Wertsch (Eds.), National Memories: Constructing Identity in Populist Times. Oxford: Academic Press.</p>
+<h1 id="posters-talks">Posters &amp; Talks</h1>
+<p><strong>Greeley, G. D.</strong><span class="math inline">\(^{*}\)</span>, Peña, T., Pepe, N. W., Choi, H-Y., &amp; Rajaram, S. (2021). Collective Memory for U.S. Cities: A Striking Stability in Recall Through a Period of Upheaval. <em>Presented as a poster at the 62nd Annual Meeting of the Psychonomic Society – Virtual.</em></p>
+<p>Jin, J., Choi, H-Y., Pepe, N. W., <strong>Greeley, G. D.</strong>, Kensinger, E. A., Mohanty, A., &amp; Rajaram, S. (2021). Assessing the Global Structure of Collective Memory: Application of the Representational Similarity Analysis. <em>Presented as a poster at the 62nd Annual Meeting of the Psychonomic Society – Virtual.</em></p>
+<p><strong>Greeley, G. D.</strong><span class="math inline">\(^{*}\)</span>, Peña, T.<span class="math inline">\(^{*}\)</span>, &amp; Rajaram, S. (2021). Collaborative Remembering in a Fully Online, Chat-Based Environment: Implications for Remote Study and Work. <em>Presented as a poster at the 62nd Annual Meeting of the Psychonomic Society – Virtual.</em></p>
+<p><strong>Greeley, G. D.</strong><span class="math inline">\(^{*}\)</span>, Peña, T.<span class="math inline">\(^{*}\)</span>, &amp; Rajaram, S. (2021). Collaborative Remembering in a Fully Online, Chat-Based Environment: Implications for Remote Study and Work. <em>Presented at Stony Brook University’s Cognitive Science Area 2nd/4th Year Symposium – Virtual.</em></p>
+<p>Smith, E., <strong>Greeley, G. D.</strong>, &amp; Russell, E. (2019). Correspondence bias: Gender effects across temporal scales. <em>Poster presented at the 2019 Midwestern Psychological Association (MPA) Conference – Chicago, IL.</em></p>
+<p><strong>Greeley, G. D.</strong> (2018). Predictive processing effects in visual working memory? <em>Poster presented at Winona State University’s 12th Annual Ramaley Research Celebration – Winona, MN.</em></p>
+<p><strong>Greeley, G. D.</strong> (2018). Predictive processing effects in visual working memory? <em>Poster presented at the Minnesota Undergraduate Psychology Conference (MUPC) - Carleton College, Northfield, MN.</em></p>
+<p>“Actualizing Activism” Course Group. (2016). Mental health on campus: Raising awareness and reducing stigma. Organized presentation and panel discussion at Gustavus Adolphus College, St. Peter, MN.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2450,6 +2491,15 @@ CV/Resume
 <div class="d-appendix">
 </div>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
@@ -2457,7 +2507,17 @@ CV/Resume
 <div class="appendix-bottom"></div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
+<div class="distill-site-nav distill-site-footer">
+<html>
+  
+<p>Site created with R and {distill}. </p>
+<p> Last updated on <script> document.write(new Date().toLocaleDateString()); </script> </p>
+
+
+</html>
+</div>
 <!--/radix_placeholder_navigation_after_body-->
+
 
 </body>
 
