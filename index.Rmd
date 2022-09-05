@@ -87,4 +87,8 @@ I'm interested in a number of topics, namely $-$
 
 # Contact & Updates
 
+```{r, fig.align='left', out.width='50%'}
+knitr::include_graphics("images/denver.JPG")
+```
+
 *Email*: [garrett.greeley@gmail.com](garrett.greeley@gmail.com) or [garrett.greeley@stonybrook.edu](garrett.greeley@stonybrook.edu)
