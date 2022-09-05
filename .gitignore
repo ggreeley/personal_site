@@ -42,7 +42,7 @@ rsconnect/
 **/.doc
 **/.docx
 **/.pptx
-**/.pdf
+
 #**/.html
 #**/.png
 **/.csv
@@ -54,7 +54,7 @@ rsconnect/
 **.doc
 **.docx
 **.pptx
-**.pdf
+
 #**.html
 #**.png
 **.csv

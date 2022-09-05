@@ -13,7 +13,7 @@ navbar:
     - text: "Teaching"
       href: teaching.html
     - text: "CV"
-      href: ./pdfs/2022-04-15_Greeley_CV.pdf
+      href: ./pdfs/2022-09-greeley-cv.pdf
       
 output:
   distill::distill_article:
