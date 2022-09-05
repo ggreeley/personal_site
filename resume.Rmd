@@ -1,14 +1,12 @@
 ---
 title: "Resume"
 description: |
-  For a more detailed list of projects, publications, and more, see ACADEMIC CV
+  In progress - please check back. Full CV is available in the meantime.
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-
-No longer in use - tab option opens PDF.
 
 
 

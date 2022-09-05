@@ -1,6 +1,6 @@
 ---
 title: "Welcome!"
-description: "My name is Garrett Greeley. I'm a 3rd year Cognitive Science Ph.D. student at Stony Brook University. I'm interested in collective/social memory, learning, and quantiative methods."
+description: "My name is Garrett Greeley. I'm a 4th year Ph.D. Candidate in the Cognitive Science program at Stony Brook University."
 site: distill::distill_website
 ---
 
@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <font size="4"> **Education**</font>
 
-Before coming to Stony Brook, I earned my B.A. in Psychology at Winona State University in Minnesota and was a summer research intern in the Cognition and Development Lab at Yale University. At Stony Brook, I've earned an M.A. in Psychology and the Advanced Certificate in Quantitative Methods, en route to the Ph.D. (expected 2024). For more details on my academic training and background, see my full LINK ACADEMIC CV or my LINK RESUME.
+Before coming to Stony Brook, I earned my B.A. in Psychology at Winona State University in Minnesota and was a summer research intern in the Cognition and Development Lab at Yale University. At Stony Brook, I've earned an M.A. in Psychology and the Advanced Certificate in Quantitative Methods, en route to the Ph.D. (expected 2024). For more details on my academic training and background, see my full [CV](LINK ACADEMIC CV).
 
 <font size="4"> **Skills**</font>
 
@@ -28,10 +28,6 @@ Before coming to Stony Brook, I earned my B.A. in Psychology at Winona State Uni
 *Languages & Platforms*: Proficient with R and the fundamentals of Git/Github. Some experience with Python, LaTeX, SAS, HTML/CSS, and JavaScript.
 
 *Statistics & Modeling*: Correlation, linear regression/ANOVA (OLS), generalized linear models (GLMs), mixed effect OLS and GLMs, meta-analysis, multivariate methods (e.g., EFA/CFA), some experience with Bayesian methods. 
-
-<font size="4"> **Hobbies**</font>
-
-When not doing or thinking about research, I'm probably making music, watching a movie or series, reading non-fiction, or deciding what food to order.
 
 ---
 
@@ -62,21 +58,17 @@ library(tidyverse)
 
 I'm interested in a number of topics, namely $-$
 
-- **Social & Collective Memory**
-  - How does collaboration in face-to-face and online environments influence *memory performance*?
+- **Collective Memory & Retrieval Dynamics**
   - How does working in a group, or being a member of a group, influence the emergence of *collective memory*?
-  - How does remembering information in a social context (e.g., in a group) influence the *subsequent learning of new information*?
-  - How do different social network features (structure/dynamics) influence the development and maintenance of collective memory?
-  
-- **Quantifying Collective Memory**
-  - What does it mean for an event/story/etc. to be collectively remembered?
-  - Can we use metrics from research on individual memory (e.g., clustering, temporal contiguity) to quantify the *"structure" of collective memory*?
+  - How does collaborative recall synchronize not only what, but *how individuals retrieve* material?
   - How does collective memory *change across time*?
+
+- **Social Remembering**
+  - How does collaboration in face-to-face and online environments influence *memory performance*?
+  - How does remembering information in a social context (e.g., in a group) influence the *subsequent learning of new information*?
   
-- **Collective Memory** $\leftarrow$ ? $\rightarrow$ **Collective Belief/Decisions/Behavior**
-  - How does collective memory influence other collective phenomena, such as *collective beliefs and decisions*?
-  - What role does collective memory play in the *accumulation of culture*?
-  
+- **Applying Collective/Social Memory**
+  - How can findings in the lab relating to collective/social memory be leveraged in *educational contexts*?
 
 ```{r, layout="l-screen-inset",eval=FALSE}
 #cowplot::ggdraw() + 
@@ -96,5 +88,3 @@ I'm interested in a number of topics, namely $-$
 # Contact & Updates
 
 *Email*: [garrett.greeley@gmail.com](garrett.greeley@gmail.com) or [garrett.greeley@stonybrook.edu](garrett.greeley@stonybrook.edu)
-
-Site last updated on `r format(Sys.time(), '%d %B, %Y')`

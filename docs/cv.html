@@ -87,29 +87,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Garrett D. Greeley: About this site</title>
+  <title>Garrett D. Greeley: CV</title>
 
-  <meta property="description" itemprop="description" content="Some additional details about the website"/>
+  <meta property="description" itemprop="description" content="Page for CV"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Garrett D. Greeley: About this site"/>
+  <meta property="og:title" content="Garrett D. Greeley: CV"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Some additional details about the website"/>
+  <meta property="og:description" content="Page for CV"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Garrett D. Greeley"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Garrett D. Greeley: About this site"/>
-  <meta property="twitter:description" content="Some additional details about the website"/>
+  <meta property="twitter:title" content="Garrett D. Greeley: CV"/>
+  <meta property="twitter:description" content="Page for CV"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About this site"]},{"type":"character","attributes":{},"value":["Some additional details about the website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["CV"]},{"type":"character","attributes":{},"value":["Page for CV"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2138,7 +2138,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --title-size:      50px;
     --body-size:       1.06rem;
     --code-size:       14px;
-    --aside-size:      12px;
+    --aside-size:      18px; /*aside size originally 12*/
     --fig-cap-size:    13px;
     /*-- Main font colors --*/
     --title-color:     #000000;
@@ -2183,11 +2183,13 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* These properties only apply to Distill sites and blogs  */
 
   .distill-site-header {
-    --title-size:       36px; /*changed from original 18 to 24*/
+    --title-size:       48px; /*changed from original 18 to 24 to 36*/
     --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        24px; /*changed from original 15 to 18*/
+    --text-size:        24px; /*changed from original 15 to 18 to 24*/
     --hover-color:      white;
     --bkgd-color:       #0F2E3D;
+    
+    --margin.bottom: 0.75em;
   }
 
   .distill-site-footer {
@@ -2201,6 +2203,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* Add any additional CSS rules below                      */
 
   /* added 2021-07-02 to include image banner on home page*/
+  /* may not use as of 2021-12-10, but keep for now in case */
   .article-banner {
     width: auto;
     height: auto;
@@ -2212,7 +2215,33 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     padding: 0;
     width: 100%;
     margin: 100px 25px 0px 0px;
-  }</style>
+  }
+
+  /* adding 2021-12-10 for putting pictures side-by-side */
+  /* nope - but keep for posterity */
+  /*.float-left img {
+    float: left;
+  }
+
+  .float.right img {
+    float: right;
+  }
+  /*
+
+  /* https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } </style>
   <style type="text/css">
   /* base style */
 
@@ -2388,7 +2417,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About this site","description":"Some additional details about the website","authors":[]}
+{"title":"CV","description":"Page for CV","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2402,17 +2431,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <a href="index.html">Home</a>
 <a href="research.html">Research</a>
 <a href="teaching.html">Teaching</a>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-About
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="about.html">Bio</a>
-<a href="cv.html">CV</a>
-</div>
-</div>
+<a href="./pdfs/2022-04-15_Greeley_CV.pdf">CV</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2422,19 +2441,15 @@ About
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>About this site</h1>
+<h1>CV</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Some additional details about the website</p></p>
+<p><p>Page for CV</p></p>
 </div>
 
 
 <div class="d-article">
-<figure>
-<img src="images/chalkboard.jpg" alt="Me doing ANOVAs by hand - 2019." /><figcaption aria-hidden="true">Me doing ANOVAs by hand - 2019.</figcaption>
-</figure>
-<p>Distill is a publication format for scientific and technical writing, native to the web.</p>
-<p>Learn more about using Distill for R Markdown at <a href="https://rstudio.github.io/distill" class="uri">https://rstudio.github.io/distill</a>.</p>
+<p>No longer in use - tab option opens PDF.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2450,7 +2465,17 @@ About
 <div class="appendix-bottom"></div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
+<div class="distill-site-nav distill-site-footer">
+<html>
+  
+<p>Site created with R and {distill}. </p>
+<p> Last updated on <script> document.write(new Date().toLocaleDateString()); </script> </p>
+
+
+</html>
+</div>
 <!--/radix_placeholder_navigation_after_body-->
+
 
 </body>
 
