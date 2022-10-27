@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <font size="4"> **Education**</font>
 
-Before coming to Stony Brook, I earned my B.A. in Psychology at Winona State University in Minnesota and was a summer research intern in the Cognition and Development Lab at Yale University. At Stony Brook, I've earned an M.A. in Psychology and the Advanced Certificate in Quantitative Methods, en route to the Ph.D. (expected 2024). For more details on my academic training and background, see my full [CV](LINK ACADEMIC CV).
+Before coming to Stony Brook, I earned my B.A. in Psychology at Winona State University in Minnesota and was a summer research intern in the Cognition and Development Lab at Yale University. At Stony Brook, I've earned an M.A. in Psychology and the Advanced Certificate in Quantitative Methods, en route to the Ph.D. (expected 2024). For more details on my academic training and background, see my full [CV](https://ggreeley.github.io/personal_site/pdfs/2022-10-greeley-cv.pdf).
 
 <font size="4"> **Skills**</font>
 
